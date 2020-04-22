@@ -4,6 +4,9 @@
 import requests
 import math
 
-r = requests.get("https://www.cracked.com")
-print(r.status_code)
-print(r.ok)
+
+def main():
+    r = requests.get("https://www.cracked.com")
+    print(r.status_code)
+    print(r.ok)
+    print("Hello World")
