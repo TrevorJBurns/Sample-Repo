@@ -10,3 +10,7 @@ def main():
     print(r.status_code)
     print(r.ok)
     print("Hello World")
+
+
+if __name__ == "__main__":
+    main()
